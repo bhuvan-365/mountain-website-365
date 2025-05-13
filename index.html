@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Explorer</title>
+    <link rel="shortcut icon" href="/images/favi icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logoArea">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path
+                            d="M11.5379 8.32172C11.6966 7.89276 12.3034 7.89276 12.4621 8.32172L13.1735 10.2443C13.2733 10.514 13.486 10.7267 13.7557 10.8265L15.6783 11.5379C16.1072 11.6966 16.1072 12.3034 15.6783 12.4621L13.7557 13.1735C13.486 13.2733 13.2733 13.486 13.1735 13.7557L12.4621 15.6783C12.3034 16.1072 11.6966 16.1072 11.5379 15.6783L10.8265 13.7557C10.7267 13.486 10.514 13.2733 10.2443 13.1735L8.32172 12.4621C7.89276 12.3034 7.89276 11.6966 8.32172 11.5379L10.2443 10.8265C10.514 10.7267 10.7267 10.514 10.8265 10.2443L11.5379 8.32172Z"
+                            stroke="currentColor" stroke-width="1" />
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1" />
+                        <path d="M8 8C8.67327 4.46819 10.2109 2 12 2C13.7891 2 15.3267 4.46819 16 8"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M8 16C8.67327 19.5318 10.2109 22 12 22C13.7891 22 15.3267 19.5318 16 16"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2 12H4.5M22 12H19.5" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="logoName">GLOBE EXPRESS</div>
+            </div>
+            <div class="menu-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    color="white" fill="none">
+                    <path d="M20 12L10 12" stroke="white" stroke-width="1" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                    <path d="M20 5L4 5" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                    </path>
+                    <path d="M20 19L4 19" stroke="white" stroke-width="1" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg></div>
+            <ul class="menuList">
+                <li>Home</li>
+                <li>Section</li>
+                <li>Option</li>
+                <li>About</li>
+                <li>Contact us</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="21" height="21" color="#000000"
+                        fill="none">
+                        <path d="M17 17L21 21" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19C15.4183 19 19 15.4183 19 11Z"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="21" height="21" color="#000000"
+                        fill="none">
+                        <path
+                            d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z"
+                            stroke="currentColor" stroke-width="1" />
+                        <path
+                            d="M14 14H10C7.23858 14 5 16.2386 5 19C5 20.1046 5.89543 21 7 21H17C18.1046 21 19 20.1046 19 19C19 16.2386 16.7614 14 14 14Z"
+                            stroke="currentColor" stroke-width="1" stroke-linejoin="round" />
+                    </svg></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="subTopMain">
+
+            </div>
+            <div class="subDownMain">
+                <div class="subBottomLeft">
+                    <div class="flex">
+                        <svg class="svgpad" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"
+                            height="16" color="#000000" fill="none">
+                            <path
+                                d="M13.6177 21.367C13.1841 21.773 12.6044 22 12.0011 22C11.3978 22 10.8182 21.773 10.3845 21.367C6.41302 17.626 1.09076 13.4469 3.68627 7.37966C5.08963 4.09916 8.45834 2 12.0011 2C15.5439 2 18.9126 4.09916 20.316 7.37966C22.9082 13.4393 17.599 17.6389 13.6177 21.367Z"
+                                stroke="aqua" stroke-width="1.5" />
+                            <path
+                                d="M15.5 11C15.5 12.933 13.933 14.5 12 14.5C10.067 14.5 8.5 12.933 8.5 11C8.5 9.067 10.067 7.5 12 7.5C13.933 7.5 15.5 9.067 15.5 11Z"
+                                stroke="aqua" stroke-width="1.5" />
+                        </svg>
+                        <h4>
+                            Solukhumbu, Nepal
+                        </h4>
+                    </div>
+                    <div class="boldHead">Mount Everest</div>
+                    <P class="paraMain">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cupiditate mollitia inventore
+                        eos, recusandae in sit repellat voluptates provident temporibus ullam animi hic asperiores rerum
+                        blanditiis labore dolor commodi voluptatum dicta cum, voluptate quasi enim natus. Ipsum
+                        cupiditate rerum earum nam.
+                    </P>
+                    <div class="footButton">
+                        <button class="bookmark pointer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="19" height="19" color="#000000" fill="white">
+                                <path
+                                    d="M4 17.9808V9.70753C4 6.07416 4 4.25748 5.17157 3.12874C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.12874C20 4.25748 20 6.07416 20 9.70753V17.9808C20 20.2867 20 21.4396 19.2272 21.8523C17.7305 22.6514 14.9232 19.9852 13.59 19.1824C12.8168 18.7168 12.4302 18.484 12 18.484C11.5698 18.484 11.1832 18.7168 10.41 19.1824C9.0768 19.9852 6.26947 22.6514 4.77285 21.8523C4 21.4396 4 20.2867 4 17.9808Z"
+                                    stroke="currentColor" stroke-width="0.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></button>
+                        <button class="description pointer">Description</button>
+                    </div>
+
+                </div>
+                <div class="subBottomRight">
+                    <div class="boxContainer">
+                        <div class="box pointer img1">
+                            <p>Solukhumbu, Nepal</p>
+                            <h3>Mount Everest</h3>
+                            <!-- Mount Everest is the highest mountain in the world, standing at 8,848.86 meters (290317 feet)
+                        above sea level. It is part of the Himalaya Known as "Sagarmatha" in Nepali -->
+
+                        </div>
+
+                        <div class="box pointer img2">
+                            <p>Mugu, Nepal</p>
+                            <h3>Rara Lake</h3>
+                            <!-- Rara Lake is the largest and deepest freshwater lake in Nepal, located in the remote northwestern region of the country. Surrounded by Rara National Park, it sits at an altitude of about 2,990 meters (9,810 feet). Known for its stunning blue waters and alpine scenery, Rara is often called the “Queen of Lakes.” -->
+                        </div>
+
+                        <div class="box  img3">
+                            <p>Rasuwa, Nepal</p>
+                            <h3>Langtang Mountain</h3>
+                            <!-- Langtang Mountain (Langtang Lirung) is the highest peak in the Langtang range of the Himalayas, standing at 7,227 meters (23,711 feet). Located north of Kathmandu near the Tibetan border, it dominates the landscape of Langtang National Park.  -->
+                        </div>
+
+                        <div class="box pointer img4">
+                            <p>Kaski, Nepal</p>
+                            <h3>Phewa Lake</h3>
+                            <!-- Phewa Lake (also spelled Fewa Lake) Lake is a popular freshwater lake located in Pokhara, a major tourist city in central Nepal. It is the second-largest lake in the country and is famous for its serene waters, reflections of the Annapurna range, and the Tal Barahi Temple, which sits on an island in the middle of the lake. -->
+                        </div>
+
+                        <div class="box pointer img5">
+                            <p>Kaski, Nepal</p>
+                            <h3>Fish Tail</h3>
+                            <!-- Machhapuchhre, meaning “Fish Tail” in Nepali, is a sacred and iconic mountain in the Annapurna Himalayas of north-central Nepal. Standing at 6,993 meters (22,943 feet), it is known for its distinctive twin-peaked summit that resembles a fish's tail.  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="arrow">
+                <div class="leftArrow pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="white"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="white"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <div class="rightArrow pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="black"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="white"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="line"></div>
+                <div class="number">01</div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
