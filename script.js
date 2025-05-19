@@ -1,3 +1,5 @@
+// Made by Bhuvan Bhattarai
+
 let boxContainer = document.querySelector(".boxContainer")
 let box = document.querySelector(".box");
 let leftArrow = document.querySelector(".leftArrow");
